@@ -63,7 +63,7 @@ fun PageViewDemo() {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(250.dp), // 👈 Add height!
-            waveColor = Color.Red
+            waveColor = colors[pagerState.currentPage]
         )
 
     }
